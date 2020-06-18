@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7314f56b0fb1fd647b24822b7ae319c7, type: 3}
+  m_Name: A9. Pressure Build Up
+  m_EditorClassIdentifier: 
+  storyText: "You open up the valve (anti-clockwise), step back, and congratulate\r
+    yourself on averting certain tragedy. Phew, that was close.\n\nAs you stand\r
+    pondering your next move, you hear a popping noise, as if a huge build up of
+    steam\r has cause the rivet of a boiler to be expunged like a squeezed whitehead
+    on a\r teenager's forehead.\n\nThen another. Then another. Oh..... maybe the
+    men\r turned off more than on valve. You hear an almighty screeching as the huge
+    gears\r and cogs start to jam. Then a deafening road.\n\n1. Continue..."
+  nextStates:
+  - {fileID: 11400000, guid: 213a86f48abd7774d8c6a757c5a77e43, type: 2}

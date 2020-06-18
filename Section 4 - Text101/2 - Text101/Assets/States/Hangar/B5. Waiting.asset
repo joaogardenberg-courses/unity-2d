@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7314f56b0fb1fd647b24822b7ae319c7, type: 3}
+  m_Name: B5. Waiting
+  m_EditorClassIdentifier: 
+  storyText: 'Not much happens.
+
+
+    What would you like to do?
+
+    1. Get running.'
+  nextStates:
+  - {fileID: 11400000, guid: 617bb8390a5f4e84d89bb9e143d63ba7, type: 2}

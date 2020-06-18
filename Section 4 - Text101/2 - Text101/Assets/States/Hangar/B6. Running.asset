@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7314f56b0fb1fd647b24822b7ae319c7, type: 3}
+  m_Name: B6. Running
+  m_EditorClassIdentifier: 
+  storyText: "You run down a long corridor then up a flight of metal stairs. They\r
+    make a loud racket as you clamber up them. Thank goodness the machinery in this\r
+    place is so loud.\n\nIn front of you is the emergency exit door. It has an\r
+    oversized, cast iron lock hanging from a bolted handle. You could try picking\r
+    the lock, or maybe look for a way to pry it off.\n\nWhat to do?\n1.\r Pick it.\n2.
+    Pry it."
+  nextStates:
+  - {fileID: 11400000, guid: 71e3739932847b74fbc43f16df9807bc, type: 2}
+  - {fileID: 11400000, guid: a99971978ee87d84eabbd3d19c428f3a, type: 2}
