@@ -97,10 +97,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   health: 200
+  deathSFX: {fileID: 0}
+  deathSFXVolume: 0.7
   projectileSpeed: 15
   projectileFiringPeriod: 0.1
   laserPrefab: {fileID: 7899861576525176879, guid: cf68dd0c0823fc2448f7cdc989dc24c4,
     type: 3}
+  projectileSFX: {fileID: 8300000, guid: 6de00df11782c6c41b08200b0a776d57, type: 3}
+  projectileSFXVolume: 0.1
 --- !u!60 &2338504045416637637
 PolygonCollider2D:
   m_ObjectHideFlags: 0
