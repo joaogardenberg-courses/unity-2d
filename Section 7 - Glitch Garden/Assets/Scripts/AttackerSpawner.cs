@@ -17,10 +17,12 @@ public class AttackerSpawner : MonoBehaviour {
     }
 
     private void SpawnAttacker() {
-        Instantiate(attacker, transform.position, transform.rotation);
-    }
+        Attacker newAttacker = Instantiate(
+            attacker,
+            transform.position,
+            transform.rotation
+        ) as Attacker;
 
-    void Update() {
-
+        newAttacker.transform.parent = transform;
     }
 }
